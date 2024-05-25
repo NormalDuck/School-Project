@@ -22,5 +22,13 @@
     "prettier": "^3.2.5",
     "roblox-ts": "^2.3.0",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@rbxts/camera-shaker": "1.0.8",
+    "@rbxts/services": "1.5.4",
+    "@rbxts/react": "0.3.6",
+    "@rbxts/react-roblox": "0.3.6",
+    "@rbxts/simplepath": "2.2.1-ts.2",
+    "@rbxts/trove": "1.3.0"
   }
 }

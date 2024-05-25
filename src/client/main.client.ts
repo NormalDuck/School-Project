@@ -1,3 +1,7 @@
-import { makeHello } from "shared/module";
+import CameraShaker from "@rbxts/camera-shaker";
+import { Players, SoundService, Workspace } from "@rbxts/services";
+import { lockCamera, unlockCamera, moveCamera } from "./camera";
+import { scene1 } from "./Scene1";
+import { scene2 } from "./Scene2";
 
-print(makeHello("main.client.ts"));
+scene1().andThen(() => {});
